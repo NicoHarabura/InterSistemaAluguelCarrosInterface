@@ -1,6 +1,6 @@
 package model.services;
 
-public class ServicoImpostoBrasil {
+public class ServicoImpostoBrasil implements ServicoImposto{
 
 	public double imposto (double valor){
 		if (valor <= 100){
